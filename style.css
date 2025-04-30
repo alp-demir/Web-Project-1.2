@@ -1,0 +1,22 @@
+
+/* Write your CSS below, don't change the rules above. */
+
+
+.note{
+font-size:20px;
+}
+#id-selector-demo{
+color:saddlebrown;
+}
+a{
+color:saddlebrown;
+}
+*{
+text-align:center;
+}
+body {
+  background-image: url('https://thumb.photo-ac.com/c1/c1d02b39fc1f7d7811efd752d0ff8ac5_t.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
