@@ -32,6 +32,8 @@ body {
   background-size: cover;
   background-repeat: repeat;
   background-position:  center;
+  height: 100vh;
+  background-attachment: fixed;
 }
 @media (max-width: 600px){
 body{
