@@ -1,7 +1,20 @@
-
-/* Write your CSS below, don't change the rules above. */
-
-
+html{
+font-size:18px;
+}
+p{
+font-weight:570;
+margin-inline-start: 60px;
+margin-inline-end: 60px;
+padding:5px 20px;
+}
+img {
+  border: 1px solid white ;
+  object-fit: cover; /* keep image aspect inside box */
+  margin: 10px;       /* spacing between images */
+  vertical-align: top; /* align tops of all images */
+  border-radius: 10%;
+  width: 130px;
+}
 .note{
 font-size:20px;
 }
@@ -18,5 +31,17 @@ body {
   background-image: url('https://thumb.photo-ac.com/c1/c1d02b39fc1f7d7811efd752d0ff8ac5_t.jpeg');
   background-size: cover;
   background-repeat: repeat;
-  background-position: center center;
+  background-position:  center;
+}
+@media (max-width: 600px){
+body{
+font-size:0.6em;
+}
+img{
+width:90px;
+}
+p{
+margin:20px;
+padding:0px;
+}
 }
